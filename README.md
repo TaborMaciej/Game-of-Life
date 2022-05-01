@@ -8,6 +8,7 @@ This code realises the objective of Game of Life by John Conway.
 3. Any live cell with more than three live neighbours dies, as if by overpopulation.
 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction." ~ Wikipedia : https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
-It can create a random cell composition or import one from a file.
+It can create a random cell composition (also known as a seed) or import one from a file.
 To import a grid you'll need to have a .txt file. This file has to be 40 lines long and each line has to consist of 100 characters. Dead cells must be marked by "." and alive cells must be marked by "#".
 You can create an empty preset file by choosing an adequate option during the program runtime.
+There are 4 .txt files included in this project. Each of these files contains a different game "seed".
